@@ -1,0 +1,117 @@
+body{
+    /* font-family: Montserrat serif; */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F0EBE3;
+}
+
+.name{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+p, li{
+    font-size: 1.15rem;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+.sub-heading{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+    background-color: #576F72;
+    
+}
+
+#sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+#sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+}
+
+#sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+  }
+
+.nav-link{
+    font-size: 1.15rem;
+    /* color: white; */
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #576F72;
+}
+
+.left{
+    margin-left: 300px;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.project-matter{
+    /* position: relative; */
+    margin-left: 17%;
+    width: 70%;
+    /* text-align: center; */
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #576F72;
+}
+
+#skills li{
+    margin-bottom: 10px;
+}
+
+#contact .desc{
+    margin: 50px auto 50px;
+}
+
