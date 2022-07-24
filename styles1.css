@@ -10231,7 +10231,19 @@ hr{
 
 @media (max-width: 992px) {
   .name{
-    font-size: 3.5rem;
+    font-size: 2.8rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.15rem;
+  }
+  p, li{
+    font-size: 0.85rem;
+  }
+  .sub-heading{
+    font-size: 1rem;
   }
   .bg-light #about span{
     /* text-align: center; */
